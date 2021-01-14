@@ -145,6 +145,10 @@ main section:nth-child(even) {
     margin-left: 10%;
 }
 
+.jobs ul li{
+    list-style: none;
+}
+
 .jobs ul li:first-child{
     margin-bottom: 10%;
 }
@@ -183,13 +187,15 @@ main section:nth-child(even) {
     flex-direction: row;
     justify-content: space-around;
     padding: 5%;
+    overflow: scroll;
 }
 
 .projects .project{
-    width: 40%;
+    min-width: 300px;
     text-align: center;
     padding: 2%;
     background-color: #ffffff;
+    margin-left: 5%;
 }
 
 .projects .project:hover{
