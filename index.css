@@ -174,27 +174,29 @@ main section:nth-child(even) {
 
 .projects{
     height: 100%;
+    padding: 5%;
 }
 
 .projects h1 {
+    margin: 0;
+    font-size: 5em;
     color: var(--secondary-color);
-    font-size: 3em;
-}
+   }
 
 .projects .projects-wapper{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     padding: 5%;
-    overflow: scroll;
 }
 
 .projects .project{
-    min-width: 300px;
+    width: 400px;
     text-align: center;
     padding: 4%;
     background-color: #ffffff;
-    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .projects .project:hover{
